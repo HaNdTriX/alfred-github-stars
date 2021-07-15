@@ -1,0 +1,32 @@
+{
+  "name": "alfred-github-stars",
+  "version": "0.1.1",
+  "description": "Alfred 3 workflow to search through your github stars.",
+  "main": "index.js",
+  "author": "Henrik Wenz <HaNdTriX@gmail.com> (https://github.com/HaNdTriX)",
+  "license": "MIT",
+  "repository": "HaNdTriX/alfred-github-stars",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "github",
+    "stars",
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.11.1"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
